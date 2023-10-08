@@ -65,7 +65,7 @@ with st.sidebar:
                            icons=['activity', 'activity', 'activity'],
                            default_index=0)
 
-# AKT1 prediction model using pubchemfingerprints
+# MAO-B prediction model using pubchemfingerprints
 if selected == 'MA0-B prediction model using pubchemfingerprints':
     # page title
     st.title('Predict bioactivity of molecules against MA0-B using pubchemfingerprints')
@@ -132,8 +132,8 @@ if selected == 'MA0-B prediction model using pubchemfingerprints':
         else:
             st.warning('Please upload an input file.')
 
-# STAT3 prediction model using pubchemfingerprints
-elif selected == 'MA0-B prediction model using pubchemfingerprints':
+# MAO-B prediction model using substructurefingerprints
+elif selected == 'MA0-B prediction model using substructurefingerprints':
     # page title
     st.title('Predict bioactivity of molecules against MA0-B using substructurefingerprints')
 
@@ -200,7 +200,7 @@ elif selected == 'MA0-B prediction model using pubchemfingerprints':
             st.warning('Please upload an input file.')
             
             
-# HRSP90AA prediction model using pubchemfingerprints
+# MA0-B prediction model using 1D and 2D molecular descriptors
 if selected == 'MA0-B prediction model using 1D and 2D molecular descriptors':
     # page title
     st.title('Predict bioactivity of molecules against MA0-B using 1D and 2D molecular descriptors')
